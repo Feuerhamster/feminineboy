@@ -1,0 +1,30 @@
+extends _layout
+
+include mixins/article-list-item
+
+block hero
+    h1 Articles
+    if query.tag
+        h2.center= "#" + query.tag
+
+block page
+
+    div.page-center
+        div.article-list
+            form(method="POST")
+                input(type="text" placeholder="Search for articles" name="search" value=query.search)
+                button.button Search
+                a.button(href="/articles") Reset
+
+            each article in articles
+                +article-list-item(article)
+            else
+                h2 We do not have articles matching your search
+
+            form.pagination(method="POST")
+                if page > 1
+                    button.button.light.small(name="page" value=page - 1) Previous
+                p Page #{page} of #{totalPages}
+                if page < totalPages
+                    button.button.light.small(name="page" value=page + 1) Next
+

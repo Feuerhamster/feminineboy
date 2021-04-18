@@ -1,0 +1,20 @@
+doctype xml
+rss(version="2.0")
+    channel
+        title FeminineBoy.net
+        description Content for boys with a feminine gender expression
+        link= publicURL
+        language en-us
+        generator pug
+        docs https://validator.w3.org/feed/docs/rss2.html
+
+        each article in articles
+            item
+                title= article.title
+                description= article.description
+                link #{publicURL}/articles/#{article.slug}
+                author= article.user_created.first_name
+                guid #{publicURL}/articles/#{article.slug}
+                pubDate= article.date_updated ? article.date_updated : article.date_created
+                each tag in article.tags
+                    category= tag.tag.name

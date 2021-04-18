@@ -1,0 +1,4 @@
+mixin tag-card(tag)
+    a.content-card.tag-card(href="/articles?tag=" + tag.name)
+        h2(style={color: tag.color})= "#" + tag.name
+        p= tag.description

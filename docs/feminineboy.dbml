@@ -1,0 +1,32 @@
+Table feminineboy_articles {
+  id int [pk]
+  status int
+  created_on datetime
+  created_by directus_user
+  updated_on datetime
+  updated_by directus_user
+  title string
+  description string
+  content text
+}
+
+Table feminineboy_tags {
+  id int [pk]
+  color string
+  name string
+  description string
+}
+
+Table feminineboy_article_tags {
+  id int [pk]
+  article int [pk]
+  tag int [pk]
+}
+
+Ref {
+  feminineboy_articles.id < feminineboy_article_tags.article
+}
+
+Ref {
+  feminineboy_tags.id < feminineboy_article_tags.tag
+}

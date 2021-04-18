@@ -1,0 +1,5 @@
+mixin user-meta(user_created, date_created, date_updated, titled)
+    div.user-meta
+        img(src=user_created.avatar alt="avatar")
+        span= user_created.first_name
+        span.date=new Date(date_updated ? date_updated : date_created).toLocaleDateString({ month: "narrow" })

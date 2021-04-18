@@ -1,0 +1,44 @@
+extends _layout
+
+block hero
+    h1 Be a boy. Be feminine.
+    h2 Content for boys with a feminine gender expression
+
+block page
+    include mixins/article-card
+    include mixins/tag-card
+
+    div.segment
+        h1 Recent articles
+
+        div.card-wrapper
+            each article in newArticles
+                +article-card(article)
+
+        a.button.margin-top.light(href="/articles") View more articles
+
+    div.segment
+        h1(data-aos="fade-up") Articles for newbies
+
+        div.card-wrapper
+            each article in newbieArticles
+                +article-card(article)
+
+    div.segment
+        h1 Explore the tags
+        div.card-wrapper
+            each tag in tags
+                +tag-card(tag)
+
+        a.button.margin-top.light(href="/tags") Explore all tags
+
+    div.segment
+        h1 Partner
+        a.content-card.tag-card(href="https://www.reddit.com/r/feminineboys/")
+            h2(style={ color: "#FF8700" }) r/feminineboys
+            p A text-based community for anyone who’s looking to be on the more feminine side of things.
+
+    div.segment
+        h1 Join the team
+        p We are constantly searching for people for our team that can write content, moderate content and advertise the website. If you're interested contact us!
+        a.button(href="/apply") Apply now

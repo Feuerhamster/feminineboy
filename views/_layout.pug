@@ -1,0 +1,21 @@
+doctype html
+html(lang="en")
+    include partials/head
+    body
+        include partials/titlebar
+        div.hero
+            div
+                block hero
+        block page
+
+    include partials/footer
+
+script(src="/index.js")
+if ackee.tracker !== "false"
+    script(
+        src=ackee.tracker
+        async
+        data-ackee-server=ackee.server
+        data-ackee-domain-id=ackee.domain
+        data-ackee-opts={ignoreLocalhost: true, detailed: ackee.detailed}
+    )

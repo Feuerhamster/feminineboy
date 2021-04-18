@@ -1,0 +1,14 @@
+mixin article-list-item(article)
+    a.content-card.article-list-item(href="/articles/" + article.slug)
+        h2= article.title
+
+        div.tags
+            each tag in article.tags
+                span.tag(style={color: tag.tag.color})= "#" + tag.tag.name
+
+        p= article.description
+
+        div.meta
+            img(src=article.user_created.avatar alt="avatar")
+            span= article.user_created.first_name
+            span.date=new Date(article.date_updated ? article.date_updated : article.date_created).toLocaleDateString() + " - " + article.timeago

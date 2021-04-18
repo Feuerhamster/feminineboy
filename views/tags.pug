@@ -1,0 +1,13 @@
+extends _layout
+
+include mixins/tag-card
+
+block hero
+    h1 Tags
+
+block page
+    div.page-center
+        div.tags-page
+            each tag in tags
+                +tag-card(tag)
+

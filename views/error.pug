@@ -1,0 +1,19 @@
+extends _layout
+
+block hero
+    h1.article-title Oh no... There is an error!
+
+block page
+    div.segment
+        h1= err
+        case err
+            when 401
+                p The URL seems to be wrong and/or have a wrong format or missing parameters.
+            when 404
+                p The page you're searching does not exist (anymore).
+            when 500
+                p There is an internal server error
+                p If this error occurs more often please contact us.
+            when 503
+                p Seems like we can't reach our content management system internally.
+                p If this error occurs more often please contact us.

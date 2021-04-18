@@ -1,0 +1,20 @@
+extends _layout
+
+block hero
+    h1.article-title= article.title
+
+    div.article-meta-head
+        img(src=article.user_created.avatar alt="avatar")
+        span= article.user_created.first_name
+
+block page
+    div.page-center
+        article
+            p.date=new Date(article.date_updated ? article.date_updated : article.date_created).toLocaleDateString() + " - " + article.timeago
+            div.tags
+                each tag in article.tags
+                    a.tag(
+                        style={color: tag.tag.color}
+                        href="/articles?tag=" + tag.tag.name)= "#" + tag.tag.name
+
+            div.md!= article.parsed_content

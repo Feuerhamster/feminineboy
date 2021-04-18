@@ -1,0 +1,157 @@
+/*
+General
+*/
+.md {
+    font-size: 21px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*
+Header
+*/
+.md h1 {
+    font-size: 40px;
+    margin: 0 0 30px 0;
+    border-bottom: 2px solid #ddd;
+    text-align: left;
+}
+.md h2 {
+    font-size: 34px;
+    margin: 0 0 30px 0;
+    border-bottom: 2px solid #ddd;
+}
+.md h3 {
+    font-size: 28px;
+    margin: 0 0 20px 0;
+}
+.md h4 {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+}
+.md h5 {
+    font-size: 21px;
+    margin: 0 0 20px 0;
+}
+.md h6 {
+    font-size: 21px;
+    margin: 0 0 20px 0;
+}
+
+.md p {
+    margin: 0 0 30px 0;
+}
+
+
+/*
+Header links
+*/
+.md h2:before, .md h3:before {
+    display: block;
+    content: " ";
+    margin-top: -80px;
+    height: 80px;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+/*
+Links
+*/
+.md a {
+    display: inline-block;
+    font-weight: 500;
+    color: var(--color-primary);
+    word-break: break-word;
+}
+
+.md a:hover {
+    color: var(--color-primary-accent);
+}
+
+/*
+Codeblock
+*/
+.md pre[class*="language-"] {
+    padding: 8px 10px!important;
+    border-radius: 4px;
+    font-size: 16px!important;
+    margin: 0 0 30px 0;
+}
+
+.md code {
+    background-color: #e5e5e5;
+    color: #555;
+    font-weight: 900;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-family: Consolas, monospace;
+    line-height: 1.4;
+}
+
+/*
+Images
+*/
+.md img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+/*
+Blockquotes
+*/
+.md blockquote {
+    display: flex;
+    margin: 0 0 30px 0;
+    padding: 10px 10px 10px 40px;
+    background-color: #eee;
+    border-radius: 4px;
+    position: relative;
+    color: #555;
+}
+
+.md blockquote:before {
+    content: "“";
+    position: absolute;
+    left: 5px;
+    top: -10px;
+    color: var(--color-primary);
+    font-size: 90px;
+    font-family: sans-serif;
+}
+
+.md blockquote p {
+    margin: 0;
+}
+
+/*
+Tables
+*/
+.md table {
+    margin: 0 0 30px 0;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.md table th {
+    background-color: #eee;
+}
+
+.md table td, .md table th {
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+}
+
+/*
+Lists
+*/
+
+.md ul, .md ol {
+    margin: 0 0 30px 0;
+}
+
+.md li {
+    margin: 0 0 10px 0;
+}

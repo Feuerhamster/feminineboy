@@ -1,0 +1,37 @@
+head
+    if article
+        title= article.title + " - FeminineBoy.net"
+        meta(name="description" content=article.description)
+        meta(name="og:title" content=article.title)
+        meta(name="og:description" content=article.description)
+        meta(name="og:type" content="article")
+        meta(name="og:article:published_time" content=article.date_updated)
+        meta(name="og:article:author" content=article.user_created.first_name)
+
+    else if title
+        title= title + " - FeminineBoy.net"
+        meta(name="og:title" content=title + " - FeminineBoy.net")
+
+    else
+        title FeminineBoy.net
+        meta(name="og:title" content="FeminineBoy.net")
+
+    if !article
+        meta(name="description" content="An open source website and community blog dedicated to content for boys with a feminine gender expression.")
+        meta(name="og:description" content="An open source website and community blog dedicated to content for boys with a feminine gender expression.")
+
+        meta(name="og:type" content="website")
+
+    meta(name="og:image " content="/img/feminineboy-logo-360.png")
+    meta(name="og:site_name " content="FeminineBoy.net")
+
+    meta(name="viewport" content="width=device-width, initial-scale=0.9")
+    meta(name="theme-color" content="#e851a4")
+
+    link(rel="stylesheet" href="/style.css")
+    link(rel="stylesheet" href="/markdown.css")
+    link(rel="stylesheet" href="/fonts.css")
+
+    link(rel="shortcut icon" href="/favicon.ico")
+    link(rel="icon" type="image/png" href="/img/feminineboy-logo-64.png" sizes="64x64")
+    link(rel="icon" type="image/png" href="/img/feminineboy-logo-128.png" sizes="128x128")
