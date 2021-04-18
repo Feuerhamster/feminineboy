@@ -12,7 +12,7 @@ Moderators are responsible to review articles before they get published.
 
 ## Developers
 If you are a developer and want to help with the development of the website, please have a look at GitHub:
-https://github.com/Feuerhamster/feminine-boy
+https://github.com/Feuerhamster/feminineboy
 
 ## Guidelines
 ### For content creators

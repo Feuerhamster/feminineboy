@@ -1,5 +1,5 @@
 // For people who visit the devtools
-console.info("Wanna see the sourcecode? FeminineBoy.net is open source!\nhttps://github.com/Feuerhamster/feminine-boy");
+console.info("Wanna see the sourcecode? FeminineBoy.net is open source!\nhttps://github.com/Feuerhamster/feminineboy");
 
 /*
 * Mobile navbar toggle

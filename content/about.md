@@ -1,5 +1,5 @@
 ## About the project
-Feminine-Boy.net is an open source community blog about Femboys.
+FeminineBoy.net is an open source community blog about Femboys.
 
 The Project was originally founded by Feuerhamster in a [reddit post](https://www.reddit.com/r/feminineboys/comments/mf07r1/a_website_for_femboys/).
 
@@ -18,7 +18,7 @@ All important stuff as well as team internal things are discussed and organized 
 
 ## Contact
 **Discord:** https://discord.gg/aGceAbPQk4  
-**GitHub:** https://github.com/Feuerhamster/feminine-boy  
+**GitHub:** https://github.com/Feuerhamster/feminineboy  
 **Email:** [contact@feminineboy.net](mailto:contact@feminineboy.net)
 
 **For legal purposes only:** https://hamsterlabs.de/pages/imprint

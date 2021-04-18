@@ -1,5 +1,5 @@
 {
-    "name": "feminine-boy",
+    "name": "feminineboy",
     "version": "1.0.0",
     "description": "An open source website and community blog dedicated to content for boys with a feminine gender expression",
     "private": true,
@@ -28,10 +28,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Feuerhamster/feminine-boy.git"
+        "url": "git+https://github.com/Feuerhamster/feminineboy.git"
     },
     "bugs": {
-        "url": "https://github.com/Feuerhamster/feminine-boy/issues"
+        "url": "https://github.com/Feuerhamster/feminineboy/issues"
     },
     "homepage": "https://feminineboy.net"
 }

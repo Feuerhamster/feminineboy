@@ -1,5 +1,5 @@
 ## Introduction
-Feminine-Boy.net **is not** a commercial enterprise.
+FeminineBoy.net **is not** a commercial enterprise.
 It is purely a non-profit project that is maintained by an open source community in thier freetime.
 
 Please note that we, FeminineBoy.net, have no control over the content or privacy practices of the websites we link to.
