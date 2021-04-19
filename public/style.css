@@ -182,7 +182,7 @@ h1 {
 }
 
 .content-card {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     text-decoration: none;
     color: var(--color-text);
@@ -203,7 +203,6 @@ h1 {
 .content-card h2 {
     font-size: 24px;
     margin: 0 0 10px 0;
-    display: flex;
 }
 
 .content-card p {
@@ -257,6 +256,7 @@ h1 {
 .article-list-item {
     max-width: 720px;
     margin: 10px 0;
+    flex: 0 1 auto;
 }
 
 /*
@@ -264,7 +264,7 @@ h1 {
 */
 .button {
     text-decoration: none;
-    display: inline-flex;
+    display: flex;
     padding: 8px 16px;
     border-radius: 6px;
     background: var(--color-primary);
