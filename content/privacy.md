@@ -70,10 +70,10 @@ If you make a request, we have one month to respond to you. If you would like to
 
 Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.
 
-Website Name does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.
+FeminineBoy.net does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.
 
 ## Contact information
-**Email:** [contact@feminineboy.net](mailto:privacy@feminineboy.net)
+**Email:** [contact@feminineboy.net](mailto:contact@feminineboy.net)
 
 **For legal purposes only:** https://hamsterlabs.de/pages/imprint
 
