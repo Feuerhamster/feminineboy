@@ -23,9 +23,10 @@ https://github.com/Feuerhamster/feminineboy
 - Pay attention to spelling and proofread before submitting an article.
 - Be aware that your content is public for everyone to read.
 - Be aware that your content will be reviewed by moderators before it gets published.
-- Anything that can be interpreted as harassment, insult, hate speech, homophobia, transphobia, sexism or racism is forbidden.
+- Anything that can be interpreted as harassment, insult, hate speech, homophobia, transphobia, sexism or racism as well as slurs are forbidden.
 - Writing about sexuality is fine as long as it remains on a subjective level.
 - Content about sexual practices, sexual experiences, fetishes or similar things are not allowed.
+- Content that contains lewd/porn or links to lewd/porn is strictly forbidden.
 - If you want to use images, make sure that you have the right for them and do not use copyrighted content.
 
 ### For moderators
