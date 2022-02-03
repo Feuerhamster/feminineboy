@@ -117,6 +117,8 @@ router.get("/privacy", PageService.renderPage("privacy", "Privacy policy"));
 // Error handling
 router.use((err, req, res, next) => {
 
+    console.error(err);
+    
     if(process.env["NODE_ENV"] && process.env["NODE_ENV"] === "production") {
         res.render("error", {err: 500});
         return;
