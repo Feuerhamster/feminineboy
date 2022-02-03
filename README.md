@@ -5,6 +5,8 @@
 
 💬 **https://discord.gg/aGceAbPQk4**
 
+> ⚠ Due to inactivity of content creators, community and lack of visitors, I have decided to end the project and shut down the website. But this repo will still be available.
+
 ## 💻 TechStack
 The website is build with Typescript, Express and a headless cms.
 This makes server side rendering possible, which is very good for this type of website due to search engine optimization and client performance.
